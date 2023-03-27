@@ -1,0 +1,3 @@
+https://github.com/netology-code/py-homework-basic-files/blob/master/1.4.cycles.datatypes/main.py  - Задание по Циклам
+
+https://pythonworld.ru/samouchitel-python сайт Самоучитель python 
