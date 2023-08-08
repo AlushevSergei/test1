@@ -20,6 +20,14 @@ schedule_interval='00 12 * * 1')
 
 def hello():
 print('Hello, world!')
+
+def sum_int():
+return print('2+3')
+
 5. Описываем таску, которая будет исполнять нашу функцию hello()
 t1 = PythonOperator(task_id='task1', python_callable=hello,
 dag=dag)
+t2 = PythonOperator(task_id='task1', python_callable=sum_int,
+dag=dag)
+t1 >> t2
+
